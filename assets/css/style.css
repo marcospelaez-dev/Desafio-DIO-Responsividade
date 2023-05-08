@@ -1,0 +1,25 @@
+/*
+* Desafio DIO - Criando um layout responsivo para o site do Discord com CSS
+* Formação CSS, módulo 2 - DIO
+* Marcos Pelaez, Web Designer
+* Inínio 09/05/2023
+*/
+
+/* Import fonts */
+@font-face {
+    font-family: Luckiest_Guy;
+    src: url(../fonts/LuckiestGuy.ttf);
+}
+@font-face {
+    font-family: Open_Sans;
+    src: url(../fonts/OpenSans.ttf);
+}
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
