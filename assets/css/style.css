@@ -23,3 +23,51 @@
     box-sizing: border-box;
 }
 
+/* Geral Container */
+.geral-container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-image: url(../img/HeaderBackground.png);
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    color: #ffffff;
+}
+ .container-header {
+    margin: auto;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 1em;
+ }
+ .title-header {
+    font-family: Luckiest_Guy;
+    font-size: 56px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding: 2%;
+    margin: 0 25rem;
+ }
+ .container-header p {
+    font-family: Open_Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 15rem 1.2rem 15rem;
+ }
+ .bt-header {
+    padding: 0.6em 2em;
+    border-radius: 50px;
+    font-family: Open_Sans;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    color: #23272A;
+    cursor: pointer;
+ }
+ .bt-openBrowser {
+    margin-left: 15px;
+    background-color: #23272A;
+    color: #ffffff;
+ }
