@@ -29,7 +29,8 @@
     margin: auto;
 }
 
-/* Header */
+/* Header - Desktop and mobile */
+
 header {
     background-image: url(../img/HeaderBackground.png);
     background-repeat: no-repeat;
@@ -71,3 +72,42 @@ header {
     background-color: #23272A;
     color: #ffffff;
  }
+
+ /* Breackpoint mobile header */
+
+ @media screen and (max-width: 430px) {
+    header, .geral-container, .container-header, .title-header, .container-header p {
+        margin: 0;
+        padding: 0;
+     }
+    
+     header {
+        background-image: url(../img/HeaderBackground_mobile.png);
+        padding-bottom: 16%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+     }
+    .container-header {
+        text-align: left;
+    }
+    .title-header {
+        font-size: 32px;
+        font-weight: 400;
+        letter-spacing: normal;
+        width: 70%;
+        padding: 2em 1em 0 1em;
+    }
+    .container-header p {
+        padding: 1.5em;
+    }
+    .bt-header {
+        width: 90%;
+        margin: 0 0 1rem 1.5rem;
+    }
+ }
+ 
+
+/* Header end - Desktop and mobile */
+
+/* Main - Desktop and mobile */
+
